@@ -9,15 +9,15 @@ export default function App() {
     <div className={`font-sans ${theme === 'dark' ? 'dark' : ''}`}>
       <div className="text-gray-800 dark:text-gray-200 bg-white dark:bg-gray-900">
         {/* Hero Section */}
-        <section className="relative overflow-hidden bg-gradient-to-br from-purple-100 via-blue-100 to-indigo-200 dark:from-purple-900 dark:via-blue-900 dark:to-indigo-900 py-24 px-6 text-center animate-gradient">
-          <div className="absolute inset-0 opacity-10 animate-floating">
+        <section className="relative overflow-hidden py-24 px-6 text-center animate-gradient min-h-[400px]" style={{ backgroundImage: "url('/VR1.jpg')", backgroundSize: "cover", backgroundPosition: "center" }}>
+          <div className="absolute inset-0 opacity-5 animate-floating">
             <Sparkles className="absolute w-8 h-8 text-yellow-400 dark:text-yellow-300" style={{ top: '20%', left: '10%' }} />
             <Sparkles className="absolute w-8 h-8 text-indigo-400 dark:text-indigo-300" style={{ top: '40%', right: '15%' }} />
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 relative z-10 dark:text-white">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 relative z-10 text-black">
             Designing the future, for those who shaped the past.
           </h1>
-          <p className="text-lg md:text-xl max-w-2xl mx-auto relative z-10 dark:text-gray-300">
+          <p className="text-lg md:text-xl max-w-2xl mx-auto relative z-10 text-gray-600">
             Bringing joy, presence, and simplicity to the elderly through VR and AI. We're building an experience, not just a product.
           </p>
           <div className="mt-10 relative z-10">
@@ -28,8 +28,8 @@ export default function App() {
         </section>
 
         {/* Problem Section */}
-        <section className="relative py-20 px-6 bg-white dark:bg-gray-800 text-center bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTAgMEg4VjhIMHpNOCA4SDE2VjE2SDh6IiBmaWxsPSIjZjVmNWY2Ii8+PC9zdmc+')] dark:bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTAgMEg4VjhIMHpNOCA4SDE2VjE2SDh6IiBmaWxsPSIjMTgxODE4Ii8+PC9zdmc+')]">
-          <div className="absolute inset-0 bg-gradient-to-b from-white via-white/80 to-white dark:from-gray-800 dark:via-gray-800/80 dark:to-gray-800" />
+        <section className="relative py-20 px-6 bg-white dark:bg-gray-800 text-center min-h-[400px]" style={{ backgroundImage: "url('/VR3.jpg')", backgroundSize: "cover", backgroundPosition: "center" }}>
+          <div className="absolute inset-0 bg-gradient-to-b from-white via-white/30 to-white dark:from-gray-800 dark:via-gray-800/30 dark:to-gray-800" />
           <h2 className="text-3xl font-semibold mb-6 relative dark:text-white">
             The world moved on — but many were left behind.
           </h2>
@@ -76,7 +76,7 @@ export default function App() {
 
         {/* Call for Cofounder */}
         <section className="bg-white dark:bg-gray-800 py-20 px-6 relative overflow-hidden">
-          <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgcGF0dGVyblRyYW5zZm9ybT0icm90YXRlKDQ1KSI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0icmdiYSgyNTUsIDI1NSwgMjU1LCAxKSIvPjxwYXRoIGQ9Ik0gMTAgMCBMIDAgMTAgTSAwIDAgTCAxMCAxMCBNIDAgMzAgTCAxMCAyMCBNIDAgMjAgTCAxMCAzMCBNIDIwIDAgTCAzMCAxMCBNIDIwIDEwIEwgMzAgMCBNIDIwIDMwIEwgMzAgMjAgTSAyMCAyMCBMIDMwIDMwIE0gMzAgMCBMIDQwIDEwIE0gMzAgMTAgTCA0MCAwIE0gMzAgMjAgTCA0MCAzMCBNIDMwIDMwIEwgNDAgMjAiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgwLCAwLCAwLCAwLjA1KSIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyaWQpIiBvcGFjaXR5PSIwLjA1Ii8+PC9zdmc+')] dark:bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgcGF0dGVyblRyYW5zZm9ybT0icm90YXRlKDQ1KSI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0icmdiYSgyNTUsIDI1NSwgMjU1LCAxKSIvPjxwYXRoIGQ9Ik0gMTAgMCBMIDAgMTAgTSAwIDAgTCAxMCAxMCBNIDAgMzAgTCAxMCAyMCBNIDAgMjAgTCAxMCAzMCBNIDIwIDAgTCAzMCAxMCBNIDIwIDEwIEwgMzAgMCBNIDIwIDMwIEwgMzAgMjAgTSAyMCAyMCBMIDMwIDMwIE0gMzAgMCBMIDQwIDEwIE0gMzAgMTAgTCA0MCAwIE0gMzAgMjAgTCA0MCAzMCBNIDMwIDMwIEwgNDAgMjAiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgwLCAwLCAwLCAwLjA1KSIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyaWQpIiBvcGFjaXR5PSIwLjA1Ii8+PC9zdmc+')] opacity-10" />
+          <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgcGF0dGVyblRyYW5zZm9ybT0icm90YXRlKDQ1KSI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0icmdiYSgyNTUsIDI1NSwgMjU1LCAxKSIvPjxwYXRoIGQ9Ik0gMTAgMCBMIDAgMTAgTSAwIDAgTCAxMCAxMCBNIDAgMzAgTCAxMCAyMCBNIDAgMjAgTCAxMCAzMCBNIDIwIDAgTCAzMCAxMCBNIDIwIDEwIEwgMzAgMCBNIDIwIDMwIEwgMzAgMjAgTSAyMCAyMCBMIDMwIDMwIE0gMzAgMCBMIDQwIDEwIE0gMzAgMTAgTCA0MCAwIE0gMzAgMjAgTCA0MCAzMCBNIDMwIDMwIEwgNDAgMjAiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgwLCAwLCAwLCAwLjA1KSI gc3Ryb2tlLXdpZHRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyaWQpIiBvcGFjaXR5PSIwLjA1Ii8+PC9zdmc+')] dark:bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZWRoPSI0MCIgaGVpZ2h0PSI0MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgcGF0dGVyblRyYW5zZm9ybT0icm90YXRlKDQ1KSI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0icmdiYSgyNTUsIDI1NSwgMjU1LCAxKSIvPjxwYXRoIGQ9Ik0gMTAgMCBMIDAgMTAgTSAwIDAgTCAxMCAxMCBNIDAgMzAgTCAxMCAyMCBNIDAgMjAgTCAxMCAzMCBNIDIwIDAgTCAzMCAxMCBNIDIwIDEwIEwgMzAgMCBNIDIwIDMwIEwgMzAgMjAgTSAyMCAyMCBMIDMwIDMwIE0gMzAgMCBMIDQwIDEwIE0gMzAgMTAgTCA0MCAwIE0gMzAgMjAgTCA0MCAzMCBNIDMwIDMwIEwgNDAgMjAiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgwLCAwLCAwLCAwLjA1KSIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyaWQpIiBvcGFjaXR5PSIwLjA1Ii8+PC9zdmc+')] opacity-10" />
           <h2 className="text-3xl font-semibold text-center mb-10 relative z-10 dark:text-white">
             This is where you come in.
           </h2>

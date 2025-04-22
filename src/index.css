@@ -1,8 +1,32 @@
+/* Tailwind Directives - MUST COME FIRST */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Root Variables for Light/Dark Mode */
+:root {
+  --foreground: 222.2 84% 4.9%;
+  --background: 0 0% 100%;
+  --primary: 222.2 47.4% 11.2%;
+}
+
+.dark {
+  --foreground: 210 40% 98%;
+  --background: 222.2 84% 4.9%;
+  --primary: 210 40% 98%;
+}
+
+/* Base Styles */
+body {
+  color: rgb(var(--foreground));
+  background: rgb(var(--background));
+}
+
 html {
   scroll-behavior: smooth;
 }
 
-/* HeroCards background shadow */
+/* Custom Components */
 .shadow {
   position: absolute;
   background: hsl(var(--primary) / 0%);
@@ -17,6 +41,7 @@ html {
   animation: shadow-slide infinite 4s linear alternate;
 }
 
+/* Animations */
 @keyframes shadow-slide {
   from {
     background: hsl(var(--primary) / 20%);
@@ -28,6 +53,7 @@ html {
   }
 }
 
+/* Responsive Adjustments */
 @media (max-width: 1024px) {
   .shadow {
     top: 70px;

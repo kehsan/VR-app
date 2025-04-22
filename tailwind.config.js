@@ -65,12 +65,37 @@ module.exports = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: 0 },
         },
+        gradient: {
+          '0%, 100%': { 'background-position': '0% 50%' },
+          '50%': { 'background-position': '100% 50%' },
+        },
+        floating: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-10px)' },
+        },
+        "pulse-slow": {
+          '0%, 100%': { opacity: '1' },
+          '50%': { opacity: '0.6' },
+        }
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        gradient: "gradient 8s ease infinite",
+        floating: "floating 6s ease-in-out infinite",
+        "pulse-slow": "pulse-slow 3s ease-in-out infinite",
       },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+      },
+      boxShadow: {
+        'soft': '0 4px 14px 0 rgba(0, 0, 0, 0.08)',
+        'soft-md': '0 6px 18px 0 rgba(0, 0, 0, 0.12)',
+      }
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  prefix: '',
+  plugins: [
+    require("tailwindcss-animate"),
+  ],
 };

@@ -76,7 +76,7 @@ export default function App() {
 
         {/* Call for Cofounder */}
         <section className="bg-white dark:bg-gray-800 py-20 px-6 relative overflow-hidden">
-          <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgcGF0dGVyblRyYW5zZm9ybT0icm90YXRlKDQ1KSI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0icmdiYSgyNTUsIDI1NSwgMjU1LCAxKSIvPjxwYXRoIGQ9Ik0gMTAgMCBMIDAgMTAgTSAwIDAgTCAxMCAxMCBNIDAgMzAgTCAxMCAyMCBNIDAgMjAgTCAxMCAzMCBNIDIwIDAgTCAzMCAxMCBNIDIwIDEwIEwgMzAgMCBNIDIwIDMwIEwgMzAgMjAgTSAyMCAyMCBMIDMwIDMwIE0gMzAgMCBMIDQwIDEwIE0gMzAgMTAgTCA0MCAwIE0gMzAgMjAgTCA0MCAzMCBNIDMwIDMwIEwgNDAgMjAiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgwLCAwLCAwLCAwLjA1KSI gc3Ryb2tlLXdpZHRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyaWQpIiBvcGFjaXR5PSIwLjA1Ii8+PC9zdmc+')] dark:bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZWRoPSI0MCIgaGVpZ2h0PSI0MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgcGF0dGVyblRyYW5zZm9ybT0icm90YXRlKDQ1KSI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0icmdiYSgyNTUsIDI1NSwgMjU1LCAxKSIvPjxwYXRoIGQ9Ik0gMTAgMCBMIDAgMTAgTSAwIDAgTCAxMCAxMCBNIDAgMzAgTCAxMCAyMCBNIDAgMjAgTCAxMCAzMCBNIDIwIDAgTCAzMCAxMCBNIDIwIDEwIEwgMzAgMCBNIDIwIDMwIEwgMzAgMjAgTSAyMCAyMCBMIDMwIDMwIE0gMzAgMCBMIDQwIDEwIE0gMzAgMTAgTCA0MCAwIE0gMzAgMjAgTCA0MCAzMCBNIDMwIDMwIEwgNDAgMjAiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgwLCAwLCAwLCAwLjA1KSIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyaWQpIiBvcGFjaXR5PSIwLjA1Ii8+PC9zdmc+')] opacity-10" />
+          <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgcGF0dGVyblRyYW5zZm9ybT0icm90YXRlKDQ1KSI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0icmdiYSgyNTUsIDI1NSwgMjU1LCAxKSIvPjxwYXRoIGQ9Ik0gMTAgMCBMIDAgMTAgTSAwIDAgTCAxMCAxMCBNIDAgMzAgTCAxMCAyMCBNIDAgMjAgTCAxMCAzMCBNIDIwIDAgTCAzMCAxMCBNIDIwIDEwIEwgMzAgMCBNIDIwIDMwIEwgMzAgMjAgTSAyMCAyMCBMIDMwIDMwIE0gMzAgMCBMIDQwIDEwIE0gMzAgMTAgTCA0MCAwIE0gMzAgMjAgTCA0MCAzMCBNIDMwIDMwIEwgNDAgMjAiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgwLCAwLCAwLCAwLjA1KSIgc3Ryb2tlLXdpZWRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyaWQpIiBvcGFjaXR5PSIwLjA1Ii8+PC9zdmc+')] dark:bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgcGF0dGVyblRyYW5zZm9ybT0icm90YXRlKDQ1KSI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0icmdiYSgyNTUsIDI1NSwgMjU1LCAxKSIvPjxwYXRoIGQ9Ik0gMTAgMCBMIDAgMTAgTSAwIDAgTCAxMCAxMCBNIDAgMzAgTCAxMCAyMCBNIDAgMjAgTCAxMCAzMCBNIDIwIDAgTCAzMCAxMCBNIDIwIDEwIEwgMzAgMCBNIDAgMjAgTCAxMCAzMCBNIDIwIDMwIEwgMzAgMjAgTSAyMCAyMCBMIDMwIDMwIE0gMzAgMCBMIDQwIDEwIE0gMzAgMTAgTCA0MCAwIE0gMzAgMjAgTCA0MCAzMCBNIDMwIDMwIEwgNDAgMjAiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgwLCAwLCAwLCAwLjA1KSIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyaWQpIiBvcGFjaXR5PSIwLjA1Ii8+PC9zdmc+')] opacity-10" />
           <h2 className="text-3xl font-semibold text-center mb-10 relative z-10 dark:text-white">
             This is where you come in.
           </h2>
@@ -92,6 +92,18 @@ export default function App() {
               <li>Fresh graduates strongly encouraged</li>
               <li>College degree not required — we care more about empathy than credentials</li>
               <li>Whether you've just graduated or never went to college — if you bring heart, initiative, and cultural understanding, we want to hear from you.</li>
+            </ul>
+          </div>
+          {/* About Us Section */}
+          <div className="max-w-3xl mx-auto text-lg space-y-4 relative z-10 dark:text-gray-300 mt-8">
+            <h3 className="text-2xl font-semibold text-center dark:text-white">About Us</h3>
+            <p>
+              We’re a Tokyo-based startup creating joyful VR entertainment experiences for the elderly. Our team blends AI and VR expertise with a shared mission to bring connection and simplicity to seniors. Here’s why you should join us:
+            </p>
+            <ul className="list-disc list-inside space-y-2">
+              <li>Led by Seasoned AI Leadership: Our team is guided by a veteran AI expert with over 20 years of experience and a PhD in AI, ensuring our vision is backed by deep technical and strategic insight.</li>
+              <li>Meaningful Mission: We’re focused on enhancing lives through entertainment, not healthcare, making VR accessible and fun for seniors.</li>
+              <li>Growth Opportunity: Japan’s silver tech market is booming, and we’re ready to scale with early clients, offering you a chance to make an impact.</li>
             </ul>
           </div>
           <div className="mt-10 text-center relative z-10">

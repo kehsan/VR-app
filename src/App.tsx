@@ -21,9 +21,20 @@ export default function App() {
             Bringing joy, presence, and simplicity to the elderly through VR and AI. We're building an experience, not just a product.
           </p>
           <div className="mt-10 relative z-10">
-            <Button className="text-lg px-6 py-4 rounded-full shadow-xl transform transition hover:scale-105 dark:bg-indigo-600 dark:hover:bg-indigo-700">
-              Join the Mission
-            </Button>
+            <div className="group relative inline-block">
+              <Button
+                className="text-lg px-6 py-4 rounded-full shadow-xl transform transition hover:scale-105 dark:bg-indigo-600 dark:hover:bg-indigo-700"
+                aria-describedby="email-tooltip-hero"
+              >
+                Join the Mission
+              </Button>
+              <span
+                id="email-tooltip-hero"
+                className="absolute left-1/2 -translate-x-1/2 bottom-[-2.5rem] hidden group-hover:block group-focus:block sm:group-hover:block sm:group-focus:block sm:hidden text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-3 py-1 rounded-md shadow-md transition-opacity duration-200"
+              >
+                email to: kehsani.goog@gmail.com
+              </span>
+            </div>
           </div>
         </section>
 
@@ -76,7 +87,7 @@ export default function App() {
 
         {/* Call for Cofounder */}
         <section className="bg-white dark:bg-gray-800 py-20 px-6 relative overflow-hidden">
-          <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgcGF0dGVyblRyYW5zZm9ybT0icm90YXRlKDQ1KSI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0icmdiYSgyNTUsIDI1NSwgMjU1LCAxKSIvPjxwYXRoIGQ9Ik0gMTAgMCBMIDAgMTAgTSAwIDAgTCAxMCAxMCBNIDAgMzAgTCAxMCAyMCBNIDAgMjAgTCAxMCAzMCBNIDIwIDAgTCAzMCAxMCBNIDIwIDEwIEwgMzAgMCBNIDIwIDMwIEwgMzAgMjAgTSAyMCAyMCBMIDMwIDMwIE0gMzAgMCBMIDQwIDEwIE0gMzAgMTAgTCA0MCAwIE0gMzAgMjAgTCA0MCAzMCBNIDMwIDMwIEwgNDAgMjAiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgwLCAwLCAwLCAwLjA1KSIgc3Ryb2tlLXdpZWRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyaWQpIiBvcGFjaXR5PSIwLjA1Ii8+PC9zdmc+')] dark:bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgcGF0dGVyblRyYW5zZm9ybT0icm90YXRlKDQ1KSI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0icmdiYSgyNTUsIDI1NSwgMjU1LCAxKSIvPjxwYXRoIGQ9Ik0gMTAgMCBMIDAgMTAgTSAwIDAgTCAxMCAxMCBNIDAgMzAgTCAxMCAyMCBNIDAgMjAgTCAxMCAzMCBNIDIwIDAgTCAzMCAxMCBNIDIwIDEwIEwgMzAgMCBNIDAgMjAgTCAxMCAzMCBNIDIwIDMwIEwgMzAgMjAgTSAyMCAyMCBMIDMwIDMwIE0gMzAgMCBMIDQwIDEwIE0gMzAgMTAgTCA0MCAwIE0gMzAgMjAgTCA0MCAzMCBNIDMwIDMwIEwgNDAgMjAiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgwLCAwLCAwLCAwLjA1KSIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyaWQpIiBvcGFjaXR5PSIwLjA1Ii8+PC9zdmc+')] opacity-10" />
+          <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgcGF0dGVyblRyYW5zZm9ybT0icm90YXRlKDQ1KSI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0icmdiYSgyNTUsIDI1NSwgMjU1LCAxKSIvPjxwYXRoIGQ9Ik0gMTAgMCBMIDAgMTAgTSAwIDAgTCAxMCAxMCBNIDAgMzAgTCAxMCAyMCBNIDAgMjAgTCAxMCAzMCBNIDIwIDAgTCAzMCAxMCBNIDIwIDEwIEwgMzAgMCBNIDIwIDMwIEwgMzAgMjAgTSAyMCAyMCBMIDMwIDMwIE0gMzAgMCBMIDQwIDEwIE0gMzAgMTAgTCA0MCAwIE0gMzAgMjAgTCA0MCAzMCBNIDMwIDMwIEwgNDAgMjAiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgwLCAwLCAwLCAwLjA1KSIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyaWQpIiBvcGFjaXR5PSIwLjA1Ii8+PC9zdmc+')] dark:bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZWRoPSI0MCIgaGVpZ2h0PSI0MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgcGF0dGVyblRyYW5zZm9ybT0icm90YXRlKDQ1KSI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0icmdiYSgyNTUsIDI1NSwgMjU1LCAxKSIvPjxwYXRoIGQ9Ik0gMTAgMCBMIDAgMTAgTSAwIDAgTCAxMCAxMCBNIDAgMzAgTCAxMCAyMCBNIDAgMjAgTCAxMCAzMCBNIDIwIDAgTCAzMCAxMCBNIDIwIDEwIEwgMzAgMCBNIDAgMjAgTCAxMCAzMCBNIDIwIDMwIEwgMzAgMjAgTSAyMCAyMCBMIDMwIDMwIE0gMzAgMCBMIDQwIDEwIE0gMzAgMTAgTCA0MCAwIE0gMzAgMjAgTCA0MCAzMCBNIDMwIDMwIEwgNDAgMjAiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgwLCAwLCAwLCAwLjA1KSI gc3Ryb2tlLXdpZHRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyaWQpIiBvcGFjaXR5PSIwLjA1Ii8+PC9svmc+')] opacity-10" />
           <h2 className="text-3xl font-semibold text-center mb-10 relative z-10 dark:text-white">
             This is where you come in.
           </h2>
@@ -107,16 +118,27 @@ export default function App() {
             </ul>
           </div>
           <div className="mt-10 text-center relative z-10">
-            <Button className="text-lg px-6 py-4 rounded-full shadow-lg transform transition hover:scale-105 dark:bg-indigo-600 dark:hover:bg-indigo-700">
-              Join the Mission
-            </Button>
+            <div className="group relative inline-block">
+              <Button
+                className="text-lg px-6 py-4 rounded-full shadow-lg transform transition hover:scale-105 dark:bg-indigo-600 dark:hover:bg-indigo-700"
+                aria-describedby="email-tooltip-cofounder"
+              >
+                Join the Mission
+              </Button>
+              <span
+                id="email-tooltip-cofounder"
+                className="absolute left-1/2 -translate-x-1/2 top-[-2.5rem] hidden group-hover:block group-focus:block sm:group-hover:block sm:group-focus:block sm:hidden text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-3 py-1 rounded-md shadow-md transition-opacity duration-200"
+              >
+                email to: kehsani.goog@gmail.com
+              </span>
+            </div>
           </div>
         </section>
 
         {/* Footer */}
         <footer className="bg-gray-50 dark:bg-gray-800 py-10 text-center text-sm text-gray-500 dark:text-gray-400 relative overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/50 to-transparent dark:via-gray-800/50" />
-          <p className="relative z-10">
+          <p className="relative z-10" style={{ fontSize: '1.059rem', transform: 'translateY(-1.3125rem)' }}>
             "We're a small group with a big vision. Come shape it with us."
           </p>
         </footer>
